@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:name="domusLink Host"
+        android:summary="Host for your domus.Link"
+        android:defaultValue="192.168.1.1"
+        android:title="Enter Host"
+        android:key="hostPref" />
+    <EditTextPreference
+        android:name="Password"
+        android:summary="Password for your domus.Link"
+        android:defaultValue="1234"
+        android:title="Enter Password"
+        android:key="passPref"
+        android:password="true" />
+    <CheckBoxPreference
+        android:name="Visible Items"
+        android:summary="Selection for domus.Link visible items only"
+        android:defaultValue="true"
+        android:title="Visible Only"
+        android:key="visiblePref" />
+</PreferenceScreen>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="expected_api_version">4</integer>
+    <integer name="min_api_version">4</integer>
+</resources>

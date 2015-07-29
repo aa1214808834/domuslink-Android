@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Prefs" android:id="@+id/prefs" android:icon="@drawable/prefs"></item>
+<item android:title="About" android:id="@+id/about"  android:icon="@drawable/domuslink_icon"></item>
+<item android:title="Exit" android:id="@+id/exit" android:icon="@drawable/cancel"></item>
+</menu>
